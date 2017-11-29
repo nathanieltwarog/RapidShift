@@ -5,5 +5,5 @@ This repository contains code and examples for the RapidShift thermal shift assa
 The subdirectory "Knime" contains the following five files:
 
 - RapidShift.knwf: the Knime workflow file containing the ported RapidShift pipeline
-- Plate1.csv: A csv file with example thermal shift data collected at St. Jude in a 384-well plate.  This file should give a clear demonstration of how data should be formatted for input into the Knime workflow.
+- plate1.csv: A csv file with example thermal shift data collected at St. Jude in a 384-well plate.  This file should give a clear demonstration of how data should be formatted for input into the Knime workflow.
 - RProcess1.R, RProcess2.R, RProcess3.R: Stand-alone R files containing the code used in the three distinct R processes present in the Knime workflow.  These files are not much use on their own, but allow a user to access the R code from the workflow without opening it in Knime, which may be preferable for some users.
